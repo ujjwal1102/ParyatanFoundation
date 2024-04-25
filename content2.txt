@@ -1,0 +1,39 @@
+**Navbar:**
+- **Home**
+- **About Us**
+- **Programs**
+- **Get Involved**
+- **Collaborate**
+- **Contact Us**
+
+**Header:**
+- Welcome to Prayatan Foundation
+- Empowering Communities, Transforming Lives
+
+**About Us:**
+At Prayatan Foundation, we are dedicated to making a difference in the lives of vulnerable individuals and communities. Our mission is to empower communities and transform lives through various initiatives focusing on education, healthcare, child welfare, and elderly support.
+
+**Programs:**
+1. **Child Welfare and Education**
+   - Access to Quality Education: Ensuring every child, especially those from marginalized backgrounds, has access to quality education through well-equipped schools and trained teachers.
+   - Child Rights Advocacy: Advocating for children's rights, including protection from exploitation and access to a safe environment.
+
+2. **Health and Nutrition**
+   - Holistic Well-being: Promoting health and nutrition programs to ensure the physical and mental well-being of children.
+
+3. **Elderly Support**
+   - Collaboration and Partnerships: Collaborating with government agencies, NGOs, and community stakeholders to provide comprehensive support for the elderly.
+
+**Get Involved:**
+Join us in our mission to create a better future for vulnerable communities. There are various ways you can get involved:
+- **Volunteer**: Contribute your time and skills to make a difference.
+- **Donate**: Support our initiatives financially to help us reach more individuals.
+- **Spread Awareness**: Help raise awareness about our causes and programs in your community.
+
+**Collaborate:**
+We believe in the power of collaboration. Partner with us to create a more inclusive and supportive society for all. Whether you represent a government agency, NGO, or community group, we welcome collaboration opportunities to amplify our impact.
+
+**Footer:**
+- Prayatan Foundation © 2024. All rights reserved.
+- Privacy Policy | Terms of Use | Sitemap
+- Connect with us: [Social Media Icons]
