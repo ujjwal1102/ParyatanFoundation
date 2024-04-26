@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Heading */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+/* Paragraph */
+p,
+li {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Span */
+span {
+  font-family: "Lato", sans-serif;
+}
+
+/* Complete - use the font you prefer for overall text */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Anchor tag */
+a {
+  font-family: "Roboto", sans-serif;
+  color: #000000; /* Blue color, you can change this to fit your design */
+  text-decoration: none; /* Remove underline by default */
+  position: relative; /* Needed for absolute positioning of pseudo-element */
+}
+.nav-item a {
+  font-family: "Montserrat", sans-serif;
+  color: #000000; /* Blue color, you can change this to fit your design */
+  text-decoration: none; /* Remove underline by default */
+  position: relative; /* Needed for absolute positioning of pseudo-element */
+}
+.nav-item a:hover {
+  color: #177fc0 /* Needed for absolute positioning of pseudo-element */
+}
+
+/* Create pseudo-element for underline */
+/* .nav-item a::after {
+  content: "";
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: #000000; 
+  transition: width 0.3s ease; 
+} */
+
+/* Anchor tag on hover */
+/* .nav-item a:hover::after {
+  width: 100%; 
+} */
+
+
+#about {
+  background: #f7fafb;
+}
+#programs {
+  background: #cae2f1;
+}
+
+.typed-cursor{
+  font-size: xx-large;
+  color: #ffffff;
+}

@@ -1,77 +1,49 @@
+import bgimg from "../assets/images/farmvisit.jpg";
+import Typed from "typed.js";
+import { useEffect } from "react";
+import { useRef } from "react";
 const Carousel = () => {
+  const h1Element = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(h1Element.current, {
+      strings: [
+        "Welcome to Prayatan Foundation", // String 1
+        "Empowering Communities,", // String 2 (with a comma)
+        " Transforming Lives", // String 3
+      ],
+      typeSpeed: 30, // Adjust typing speed as desired
+      backSpeed: 25, // Adjust backspace speed (if applicable)
+      loop: true, // Set to true for continuous typing effect
+      cursorChar: "|", // Optional: Display a blinking cursor
+      contentType: "html", // Important for handling commas and spaces
+    });
+
+    return () => {
+      // Cleanup function (optional, if needed)
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <>
-      {/* <div id="carouselExampleDark" className="carousel carousel-dark slide">
-        <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to={0}
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          />
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to={1}
-            aria-label="Slide 2"
-          />
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to={2}
-            aria-label="Slide 3"
-          />
-        </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval={10000}>
-            <img src="..." className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+      <section className="">
+        {/* <div className="row"> */}
+        {/* <div className="col-6 col-lg-6 col-md-6 col-sm-12 p-0">
+            <div className="h-100 d-flex  justify-content-center align-items-center text-center">
+              <h1 ref={h1Element} className="my-4"></h1>
             </div>
-          </div>
-          <div className="carousel-item" data-bs-interval={2000}>
-            <img src="..." className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+          </div> */}
+
+        <div className="card  border-0 rounded-0" style={{ zIndex: -1 }}>
+          <img src={bgimg} className="card-img" alt="..." />
+          <div className="card-img-overlay" style={{ top: "150px" }}>
+            <div className="d-flex justify-content-center align-item-center ">
+              <h1 ref={h1Element} className="card-title text-white "></h1>
             </div>
           </div>
         </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true" />
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div> */}
+        {/* </div> */}
+      </section>
     </>
   );
 };

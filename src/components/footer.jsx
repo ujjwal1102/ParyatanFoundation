@@ -2,73 +2,44 @@ const Footer = () => {
   return (
     <>
       <>
-        {/* Footer */}
-        <footer className="bg-body-tertiary text-center">
-          {/* Grid container */}
+        <footer className="text-center text-white">
           <div className="container p-4">
-            {/* Section: Social media */}
             <section className="mb-4">
-              {/* Facebook */}
+              <a
+                // data-mdb-ripple-init=""
+                className="btn btn-outline btn-floating m-1"
+                href="#!"
+                role="button"
+              >
+                <i className="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                className="btn btn-outline btn-floating m-1"
+                href="#!"
+                role="button"
+              >
+                <i className="fa-brands fa-x-twitter"></i>
+              </a>
               <a
                 data-mdb-ripple-init=""
                 className="btn btn-outline btn-floating m-1"
                 href="#!"
                 role="button"
               >
-                <i className="fab fa-facebook-f" />
+                <i className="fa-brands fa-instagram"></i>
               </a>
-              {/* Twitter */}
-              <a
+
+              {/* <a
                 data-mdb-ripple-init=""
                 className="btn btn-outline btn-floating m-1"
                 href="#!"
                 role="button"
               >
-                <i className="fab fa-twitter" />
-              </a>
-              {/* Google */}
-              <a
-                data-mdb-ripple-init=""
-                className="btn btn-outline btn-floating m-1"
-                href="#!"
-                role="button"
-              >
-                <i className="fab fa-google" />
-              </a>
-              {/* Instagram */}
-              <a
-                data-mdb-ripple-init=""
-                className="btn btn-outline btn-floating m-1"
-                href="#!"
-                role="button"
-              >
-                <i className="fab fa-instagram" />
-              </a>
-              {/* Linkedin */}
-              <a
-                data-mdb-ripple-init=""
-                className="btn btn-outline btn-floating m-1"
-                href="#!"
-                role="button"
-              >
-                <i className="fab fa-linkedin-in" />
-              </a>
-              {/* Github */}
-              <a
-                data-mdb-ripple-init=""
-                className="btn btn-outline btn-floating m-1"
-                href="#!"
-                role="button"
-              >
-                <i className="fab fa-github" />
-              </a>
+                <i className="fa fa-linkedin-in" />
+              </a> */}
             </section>
-            {/* Section: Social media */}
-            {/* Section: Form */}
-            
-            {/* Section: Form */}
-            {/* Section: Text */}
-            <section className="mb-4">
+
+            {/* <section className="mb-4">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
                 distinctio earum repellat quaerat voluptatibus placeat nam,
@@ -76,20 +47,16 @@ const Footer = () => {
                 aliquam sequi voluptate quas.
               </p>
             </section>
-            {/* Section: Text */}
-            {/* Section: Links */}
+
             <section className="">
-              {/*Grid row*/}
               <div className="row">
-                {/*Grid column*/}
                 <div className="col-lg-6 col-md-4 mb-4 mb-md-0">
                   <h5 className="text-uppercase">Links</h5>
                   <ul className="list-unstyled mb-0">
-                    <li>
-                      <a className="text-body" href="#!">
-                        Link 1
-                      </a>
-                    </li>
+                    <a className="text-body " href="#">
+                      Link 1
+                    </a>
+
                     <li>
                       <a className="text-body" href="#!">
                         Link 2
@@ -107,35 +74,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                {/*Grid column*/}
-                {/*Grid column*/}
-                {/* <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                  <h5 className="text-uppercase">Links</h5>
-                  <ul className="list-unstyled mb-0">
-                    <li>
-                      <a className="text-body" href="#!">
-                        Link 1
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-body" href="#!">
-                        Link 2
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-body" href="#!">
-                        Link 3
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-body" href="#!">
-                        Link 4
-                      </a>
-                    </li>
-                  </ul>
-                </div> */}
-                {/*Grid column*/}
-                {/*Grid column*/}
+
                 <div className="col-lg-3 col-md-4 mb-4 mb-md-0">
                   <h5 className="text-uppercase">Links</h5>
                   <ul className="list-unstyled mb-0">
@@ -161,8 +100,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                {/*Grid column*/}
-                {/*Grid column*/}
+
                 <div className="col-lg-3 col-md-4 mb-4 mb-md-0">
                   <h5 className="text-uppercase">Links</h5>
                   <ul className="list-unstyled mb-0">
@@ -188,26 +126,19 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                {/*Grid column*/}
               </div>
-              {/*Grid row*/}
-            </section>
-            {/* Section: Links */}
+            </section> */}
           </div>
-          {/* Grid container */}
-          {/* Copyright */}
+
           <div
             className="text-center p-3"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+            style={{ backgroundColor: "#177fc0" }}
           >
-            © 2020 Copyright:
-            <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-              MDBootstrap.com
-            </a>
+            <span className="text-reset mx-2 ">
+              © 2024 Copyright : Prayatan Foundation
+            </span>
           </div>
-          {/* Copyright */}
         </footer>
-        {/* Footer */}
       </>
     </>
   );
