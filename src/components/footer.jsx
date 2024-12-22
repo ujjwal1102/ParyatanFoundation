@@ -6,25 +6,26 @@ const Footer = () => {
           <div className="container p-4">
             <section className="mb-4">
               <a
-                // data-mdb-ripple-init=""
-                className="btn btn-outline btn-floating m-1"
-                href="#!"
+                className="btn-outline btn-floating px-2 mx-2 text-dark"
+                href="https://www.facebook.com/profile.php?id=61570529229951&mibextid=ZbWKwL"
                 role="button"
+                target="_blank"
               >
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
               <a
-                className="btn btn-outline btn-floating m-1"
-                href="#!"
+                className="btn-outline btn-floating px-2 mx-2 text-dark"
+                href="http://linkedin.com/in/prayatan-foundation-921a58342"
                 role="button"
+                target="_blank"
               >
-                <i className="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
               </a>
               <a
-                data-mdb-ripple-init=""
-                className="btn btn-outline btn-floating m-1"
-                href="#!"
+                className="btn-outline btn-floating px-2 mx-2 text-dark"
+                href="https://www.instagram.com/prayatanfoundationngo/"
                 role="button"
+                target="_blank"
               >
                 <i className="fa-brands fa-instagram"></i>
               </a>
