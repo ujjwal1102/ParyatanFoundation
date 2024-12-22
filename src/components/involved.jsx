@@ -40,7 +40,7 @@ const GetInvolved = () => {
           <h2 className="text-center mb-4">Contact Us</h2>
           <div className="row d-flex justify-content-center">
             <p className="text-center">
-              <i className="fa-solid fa-envelope pe-3"></i> test@gmail.com
+              <i className="fa-solid fa-envelope pe-3"></i> info@prayatan-foundation.com
             </p>
             <p className="text-center">
               <i className="fa-solid fa-phone pe-3"></i>+ 91 9876 54321
