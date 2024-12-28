@@ -43,7 +43,7 @@ const GetInvolved = () => {
               <i className="fa-solid fa-envelope pe-3"></i> info@prayatan-foundation.com
             </p>
             <p className="text-center">
-              <i className="fa-solid fa-phone pe-3"></i>+ 91 9876 54321
+              <i className="fa-solid fa-phone pe-3"></i>+ 91 78382 66729
             </p>
             <p className="text-center">
               Feel free to reach out to us for any inquiries or collaboration
